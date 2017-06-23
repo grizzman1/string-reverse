@@ -7,21 +7,26 @@
 </head>
 <body>
   
-  <h1>Sting Reverse</h1>
+  <h1>String Changer</h1>
   
   <div>
-      <input type="text" id="textInput" />
-    </div>  
+    <input type="text" id="textInput">
+  </div>
   
-    <div>
-      <input type="button" id="doAction" value="Reverse Word" />
-    </div>
+  <div>
+    <input type="radio" name="method" value="reverse" checked> Reverse
+    <input type="radio" name="method" value="random"> Random
+    <input type="radio" name="method" value="alphabetize"> Alphabetize
+  </div>
   
-    <div id="display">
-    
-    </div>
+  <div>
+    <input type="button" id="doAction" value="Change String">
+  </div>
+  
+  <div id="display"></div>
   
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="script.js"></script>
+  
 </body>
 </html>
